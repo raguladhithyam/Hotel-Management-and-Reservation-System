@@ -1,0 +1,150 @@
+@import "standard.css";
+
+/*start of contact section*/
+.contact-div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 270vh;
+  background-image:url(images/3.jpg);
+  background-size: cover;
+}
+
+.container {
+  background-color: #e2dede;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+  width: 500px;
+  max-width: 95%;
+  border-radius: 10px;
+}
+
+.container .head {
+  font-size: 25px;
+  padding: 10px 30px;
+  border-bottom: 1px solid #000;
+}
+
+.container .form {
+  padding: 30px 40px;
+}
+
+.container .form .control {
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  position: relative;
+  font-weight: bold;
+}
+
+.container .form .control label, .container .form .control textarea {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.container .form .control input, .container .form .control select, .form .control textarea {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.container .form .control .check, .container .form .control .exclame {
+  position: absolute;
+  top: 40px;
+  right: -20px;
+  visibility: hidden;
+}
+
+.container .form .control small {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-weight: bold;
+  color: slategrey;
+}
+
+.container .form .success input, .container .form .success textarea {
+  border-color: green;
+}
+
+.container .form .success small {
+  visibility: hidden;
+}
+
+.container .form .success .check {
+  color: green;
+  visibility: visible;
+}
+
+.container .form .fail input, .container .form .fail textarea {
+  border-color: red;
+}
+
+.container .form .fail .exclame {
+  color: red;
+  visibility: visible;
+}
+
+.container .form .fail small {
+  color: red;
+  visibility: visible;
+}
+
+#message {
+  height: 20vh;
+}
+
+.container .form button {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/*end of contact styling*/
+
+/*start of info styling*/
+  .info {
+    background-color: rgb(231, 216, 216);
+    height: auto;
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  }
+  h5 {
+    letter-spacing: 2px;
+  }
+
+  .email form a {
+    font-size: 17px;
+    text-decoration: none;
+  }
+
+  .email form a:hover {
+    text-decoration:none;
+  }
+/*end of info styling*/
+
+@media only screen and (min-width:992px) {
+      /*start of contact section*/
+    .contact-div1 {
+      min-height: 130vh;
+    }
+    /*end of contact styling*/
+}

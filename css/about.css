@@ -1,0 +1,98 @@
+@import "standard.css";
+/*start of styling for about section*/
+
+.section4 {
+    background-color:rgb(231, 216, 216);
+    color: #000;
+    display: inline-block;
+    min-height: 80vh;
+  }
+
+  .section4__div1 h3 {
+    font-size: 50px;
+    padding-top:70px;
+  }
+
+  .section4__div1 p {
+    font-size: 25px;
+    margin: auto;
+    width: 95%;
+  }
+
+  .section4__div2 h3 {
+    font-size: 30px;
+  }
+
+  .section4__div2__flex__1 {
+    border: 2px solid #0275d8;
+    margin: 10px auto;
+    max-width: 80%;
+    padding: 5px 5px;
+    border-radius: 0 50px;
+  }
+  
+  .section4__div2__flex__1 q {
+    font-size: 20px;
+  }
+  
+  .section4__div2__flex__1 p {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .about-btn {
+    text-align: center;
+  }
+
+  .about-btn button {
+    width: 40%;
+    height: 3rem;
+    border-radius: 0 30px;
+    border: 2px solid #0275d8;
+  }
+  
+  .about-btn button a {
+    font-size: 20px;
+    color: #000;
+  }
+
+/*end of styling for about section*/
+
+
+@media only screen and (min-width:768px) {
+      /*start of styling about section*/
+  
+  .about-hr {
+    width: 10%;
+    height: 3px;
+    margin: 0 auto;
+  }
+  
+  .quote-img {
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    right: 40%;
+    display: block;
+    max-width: 30%;
+    border-radius: 50%;
+  }
+  
+  .section4__div2__flex__1 p {
+    position: absolute;
+    bottom: -65%;
+    left: 25%;
+    margin: 0 auto;
+  }
+  
+  .section4__div2__flex__1 {
+    padding-bottom:50px;
+  }
+  
+  .btn-div {
+    margin-top: 30vh;
+  }
+  /*end of styling about section*/
+}
